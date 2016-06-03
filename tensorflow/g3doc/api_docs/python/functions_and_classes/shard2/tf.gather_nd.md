@@ -2,7 +2,7 @@
 
 Gather values from `params` according to `indices`.
 
-`indices` must be integer tensor, containing indices into `params`.
+`indices` must be an integer tensor, containing indices into `params`.
 It must be shape `[d_0, ..., d_N, R]` where `R` is the rank of `params`.
 The innermost dimension of `indices` (with length `R`) corresponds to the
 indices of `params`.
