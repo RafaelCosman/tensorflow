@@ -893,7 +893,7 @@ def variable_scope(name_or_scope, reuse=None, initializer=None,
                    regularizer=None, caching_device=None, partitioner=None):
   """Returns a context for variable scope.
 
-  Variable scope allows to create new variables and to share already created
+  Variable scope allows us to create new variables and to share already created
   ones while providing checks to not create or share by accident. For details,
   see the [Variable Scope How To](../../how_tos/variable_scope/index.md),
   here we present only a few basic examples.
